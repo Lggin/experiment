@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Experiment Redirect</title>
+    <script>
+      const rand = Math.random();
+      if (rand < 0.5) {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfKWtG4raOlACWfCLIZrmFwGo2CHudi3DNaznBpjp5xKwpkWw/viewform?usp=header"; // Version 1
+      } else {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfO5qrAyqlsj60i26Scw3gAjtUoxHnRicxMQMstnp_c-OkoVg/viewform?usp=header"; // Version 2
+      }
+</script>  
+ </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+ </html>
